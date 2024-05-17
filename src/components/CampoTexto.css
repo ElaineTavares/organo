@@ -1,0 +1,34 @@
+.campo_texto{
+    margin: 24px 0;
+}
+
+.campo_texto label{
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+.campo_texto input{
+    background-color: #fff;
+    box-shadow: 10px 10px 30px gray;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    padding: 24px;
+}
+
+
+@media (max-width:601px){ 
+    .campo_texto input{
+        font-size: 18px;
+    }
+}
+
+@media (max-width:490px){ 
+    .campo_texto input{
+        font-size: 12px;
+        padding: 24px;
+    }
+}
